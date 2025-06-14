@@ -13,11 +13,9 @@ query = """
     maxGpuCount
     secureCloud
     communityCloud
-    securePrice
-    communityPrice
-    lowestPrice {
-      costPerHour
-      cloudType
+    lowestPrice(input: {gpuCount: 1}) {
+      minimumBidPrice
+      uninterruptablePrice
     }
   }
 }
@@ -30,15 +28,15 @@ headers = {
 
 response = requests.post(URL, headers=headers, json={"query": query})
 print("Status code:", response.status_code)
-print("Response snippet:", response.text[:500], "...")
+print("Response snippet:", response.text[:500])
 
 if response.status_code == 200:
-    data = response.json().get("data", {}).get("gpuTypes", [])
-    if data:
+    gpu_list = response.json().get("data", {}).get("gpuTypes", [])
+    if gpu_list:
         with open("gpu_prices.json", "w") as f:
-            json.dump(data, f, indent=2)
-        print("✅ Saved gpu_prices.json with prices")
+            json.dump(gpu_list, f, indent=2)
+        print("✅ Saved gpu_prices.json with pricing info")
     else:
-        print("⚠️ No gpuTypes data received")
+        print("⚠️ No gpuTypes data found.")
 else:
     print("❌ Request failed")
