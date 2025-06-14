@@ -2,12 +2,13 @@ name: RunPod GPU Prices Fetcher
 
 on:
   schedule:
-    - cron: '0 * * * *'  # מריץ כל שעה בדיוק
-  workflow_dispatch:     # מאפשר גם הרצה ידנית מה-GitHub UI
+    - cron: '0 * * * *'  # מריץ כל שעה
+  workflow_dispatch:       # מאפשר הרצה ידנית דרך GitHub
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -22,3 +23,9 @@ jobs:
 
       - name: Run script
         run: python runpod_fetch.py
+
+      - name: Upload GPU prices JSON
+        uses: actions/upload-artifact@v3
+        with:
+          name: gpu-prices
+          path: gpu_prices.json
