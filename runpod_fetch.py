@@ -6,15 +6,19 @@ URL = "https://api.runpod.io/graphql"
 
 query = """
 {
-  gpuClouds {
+  gpuTypes {
     id
-    gpu
-    costPerHour
+    displayName
     memoryInGb
-    numCpus
-    numGpus
-    communityCloud
+    maxGpuCount
     secureCloud
+    communityCloud
+    securePrice
+    communityPrice
+    lowestPrice {
+      costPerHour
+      cloudType
+    }
   }
 }
 """
@@ -25,18 +29,16 @@ headers = {
 }
 
 response = requests.post(URL, headers=headers, json={"query": query})
-
 print("Status code:", response.status_code)
-print("Response:", response.text)
+print("Response snippet:", response.text[:500], "...")
 
 if response.status_code == 200:
-    data = response.json()
-    options = data.get("data", {}).get("gpuClouds", [])
-    if options:
+    data = response.json().get("data", {}).get("gpuTypes", [])
+    if data:
         with open("gpu_prices.json", "w") as f:
-            json.dump(options, f, indent=2)
-        print("✅ Saved to gpu_prices.json")
+            json.dump(data, f, indent=2)
+        print("✅ Saved gpu_prices.json with prices")
     else:
-        print("⚠️ No GPU pricing data found.")
+        print("⚠️ No gpuTypes data received")
 else:
-    print("❌ Failed to get data from RunPod.")
+    print("❌ Request failed")
