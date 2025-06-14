@@ -1,0 +1,24 @@
+name: RunPod GPU Prices Fetcher
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # מריץ כל שעה בדיוק
+  workflow_dispatch:     # מאפשר גם הרצה ידנית מה-GitHub UI
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run script
+        run: python runpod_fetch.py
