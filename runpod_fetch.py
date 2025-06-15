@@ -13,7 +13,6 @@ query = """
     nodeGroupDatacenters {
       id
       name
-      region
     }
   }
 }
