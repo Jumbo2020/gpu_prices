@@ -7,9 +7,21 @@ URL = "https://api.runpod.io/graphql"
 query = """
 {
   gpuTypes {
+    id
     displayName
+    memoryInGb
+    maxGpuCount
     secureCloud
+    communityCloud
     securePrice
+    communityPrice
+    communitySpotPrice
+    secureSpotPrice
+    clusterPrice
+    oneWeekPrice
+    oneMonthPrice
+    threeMonthPrice
+    sixMonthPrice
     nodeGroupDatacenters {
       id
       name
@@ -29,7 +41,7 @@ if response.status_code == 200:
     data = response.json().get("data", {}).get("gpuTypes", [])
     with open("gpu_prices.json", "w") as f:
         json.dump(data, f, indent=2)
-    print("✅ Saved gpu_prices.json with pricing and location info")
+    print("✅ Saved gpu_prices.json with full pricing and location info")
 else:
     print(f"❌ Failed to fetch data. Status code: {response.status_code}")
     print(response.text)
