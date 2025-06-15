@@ -30,10 +30,10 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/jumbo2020/gpu_prices.git
+          
           git add gpu_prices.json
-
-          # נבדוק אם יש שינוי
           git diff --cached --quiet || (
             git commit -m "🔄 Auto-update GPU prices"
-            git push https://jumbo2020:${GH_PAT}@github.com/jumbo2020/gpu_prices.git HEAD:main
+            git push origin main
           )
