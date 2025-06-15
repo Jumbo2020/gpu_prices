@@ -2,7 +2,7 @@ name: RunPod GPU Prices Auto-Update
 
 on:
   schedule:
-    - cron: '0 * * * *'  # כל שעה
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
+          python-version: '3.10'
 
       - name: Install dependencies
         run: pip install requests
@@ -28,14 +28,20 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
+          echo "🔧 Configuring Git"
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
 
-          # ⬇️ שורת הקסם: מחליף את remote לכתובת עם הטוקן
+          echo "🔐 Setting remote with token"
           git remote set-url origin https://x-access-token:${GH_PAT}@github.com/jumbo2020/gpu_prices.git
+          git remote -v
 
+          echo "📦 Adding file"
           git add gpu_prices.json
+
+          echo "📝 Checking for changes"
           git diff --cached --quiet || (
+            echo "📤 Committing and pushing..."
             git commit -m "🔄 Auto-update GPU prices"
             git push origin main
           )
