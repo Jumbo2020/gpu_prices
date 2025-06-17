@@ -1,0 +1,40 @@
+name: GCP GPU Prices Auto-Update
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # כל שעה
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install google-auth requests
+
+      - name: Fetch GCP GPU SKUs
+        env:
+          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+        run: python gcp_fetch.py
+
+      - name: Commit and push updated gcp_gpu_prices.json
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
+          git add gcp_gpu_prices.json
+          git diff --cached --quiet || (
+            git commit -m "⚡️ Auto-update GCP GPU prices"
+            git push origin main
+          )
