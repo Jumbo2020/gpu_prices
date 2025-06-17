@@ -1,20 +1,17 @@
 # gcp_fetch.py
-import os
-import json
-import requests
+import os, json, requests
 from google.oauth2 import service_account
-from google.auth.transport.requests import Request
 
-# קבלת מפתח JSON מתוך משתנה סביבה
+# Load credentials from env var
 SA_JSON = os.environ["GCP_SA_KEY"]
 info = json.loads(SA_JSON)
 creds = service_account.Credentials.from_service_account_info(info)
 scoped = creds.with_scopes(["https://www.googleapis.com/auth/cloud-billing"])
-scoped.refresh(Request())  # חשוב: כדי לקבל את ה-token
+scoped.refresh(requests.Request())
 
 def fetch_gpu_skus():
     url = "https://cloudbilling.googleapis.com/v1/services/6F81-5844-456A/skus"
-    headers = {"Authorization": f"Bearer {scoped.token}"}
+    headers = {"Authorization": "Bearer " + scoped.token}
     skus = []
     page_token = ""
 
@@ -27,13 +24,21 @@ def fetch_gpu_skus():
         resp.raise_for_status()
         data = resp.json()
 
-        for s in data.get("skus", []):
-            if "GPU" in s.get("description", ""):
-                skus.append({
-                    "skuId": s["skuId"],
-                    "description": s["description"],
-                    "pricingInfo": s.get("pricingInfo", [])
-                })
+        for sku in data.get("skus", []):
+            if "GPU" in sku.get("description", ""):
+                pricing_info = sku.get("pricingInfo", [])
+                if pricing_info:
+                    tier = pricing_info[0]["pricingExpression"]["tieredRates"][0]
+                    nanos = tier["unitPrice"].get("nanos", 0)
+                    units = int(tier["unitPrice"].get("units", 0))
+                    hourly_price = units + (nanos / 1_000_000_000)
+
+                    skus.append({
+                        "displayName": sku["description"],
+                        "secureCloud": True,
+                        "securePrice": round(hourly_price, 4),
+                        "nodeGroupDatacenters": []
+                    })
 
         page_token = data.get("nextPageToken", "")
         if not page_token:
@@ -42,7 +47,7 @@ def fetch_gpu_skus():
     return skus
 
 if __name__ == "__main__":
-    skus = fetch_gpu_skus()
-    with open("gcp_gpu_prices.json", "w") as f:
-        json.dump(skus, f, indent=2)
-    print(f"✅ gcp_gpu_prices.json saved with {len(skus)} GPU SKUs")
+    gpu_data = fetch_gpu_skus()
+    with open("gcp_gpu_prices_normalized.json", "w") as f:
+        json.dump(gpu_data, f, indent=2)
+    print("✅ gcp_gpu_prices_normalized.json saved")
