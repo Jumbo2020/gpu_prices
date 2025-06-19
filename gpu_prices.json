@@ -246,7 +246,7 @@
     "id": "NVIDIA GeForce RTX 4080 SUPER",
     "displayName": "RTX 4080 SUPER",
     "memoryInGb": 16,
-    "maxGpuCount": 5,
+    "maxGpuCount": 6,
     "secureCloud": false,
     "communityCloud": true,
     "securePrice": 0.5,
