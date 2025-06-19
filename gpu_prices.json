@@ -282,7 +282,7 @@
     "id": "NVIDIA GeForce RTX 5080",
     "displayName": "RTX 5080",
     "memoryInGb": 16,
-    "maxGpuCount": 5,
+    "maxGpuCount": 4,
     "secureCloud": false,
     "communityCloud": true,
     "securePrice": 0.59,
