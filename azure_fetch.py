@@ -1,7 +1,6 @@
 
 import requests
 import json
-import os
 
 ALLOWED_GPU_MODELS = [
     "B200", "H200", "H100", "A100", "RTX 3090", "RTX 4090", "RTX 5090",
@@ -17,9 +16,6 @@ AZURE_REGIONS = [
 ]
 
 def fetch_gpu_prices_for_region(region):
-    """
-    Fetches raw GPU pricing data for a specific Azure region.
-    """
     prices = []
     url = f"https://prices.azure.com/api/retail/prices?$filter=serviceFamily eq 'Compute' and armRegionName eq '{region}'"
 
@@ -50,53 +46,27 @@ def fetch_gpu_prices_for_region(region):
 
     return prices
 
-def fetch_all_azure_gpu_prices(output_filename="azure_gpu_prices.json"):
-    """
-    Fetches all raw GPU pricing data from all regions and saves to file.
-    """
+def fetch_all_azure_gpu_prices():
     all_prices = []
     for region in AZURE_REGIONS:
         all_prices.extend(fetch_gpu_prices_for_region(region))
+    return all_prices
 
-    with open(output_filename, "w", encoding="utf-8") as f:
-        json.dump(all_prices, f, indent=2, ensure_ascii=False)
-
-    print(f"✅ Saved {len(all_prices)} raw GPU price entries to {output_filename}")
-    return output_filename
-
-def filter_gpu_prices(input_file="azure_gpu_prices.json", output_file="filtered_azure_gpu_prices.json"):
-    """
-    Filters GPU pricing data with the following criteria:
-    - Matches allowed GPU models
-    - Excludes entries with 'Low Priority' or 'Spot'
-    - Only includes prices between 0.1 and 200 USD
-    """
-    try:
-        with open(input_file, "r", encoding="utf-8") as f:
-            all_prices = json.load(f)
-    except FileNotFoundError:
-        print(f"Error: The file '{input_file}' was not found.")
-        return
-    except json.JSONDecodeError:
-        print(f"Error: Could not decode JSON from '{input_file}'. Check file format.")
-        return
-
+def filter_gpu_prices(all_prices, output_file="filtered_azure_gpu_prices.json"):
     filtered_prices = []
     initial_count = len(all_prices)
+
     for item in all_prices:
         sku_name = item.get("skuName", "").lower()
         product_name = item.get("productName", "").lower()
         combined = f"{sku_name} {product_name}"
 
-        # Filter by allowed GPU models
         if not any(model.lower() in combined for model in ALLOWED_GPU_MODELS):
             continue
 
-        # Filter out Spot or Low Priority
         if any(term in sku_name.replace(" ", "") for term in ["lowpriority", "spot"]):
             continue
 
-        # Filter by price range
         try:
             price = float(item.get("pricePerHour"))
             if price < 0.1 or price > 200:
@@ -113,8 +83,5 @@ def filter_gpu_prices(input_file="azure_gpu_prices.json", output_file="filtered_
     print(f"Removed {initial_count - len(filtered_prices)} entries during filtering.")
 
 if __name__ == "__main__":
-    initial_data_file = fetch_all_azure_gpu_prices()
-    if initial_data_file and os.path.exists(initial_data_file):
-        filter_gpu_prices(input_file=initial_data_file)
-    else:
-        print("Skipping filtering as initial data file was not created or found.")
+    all_prices = fetch_all_azure_gpu_prices()
+    filter_gpu_prices(all_prices)
