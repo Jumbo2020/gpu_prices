@@ -2,14 +2,12 @@ import requests
 import json
 import os
 
-# רשימת דגמים שאתה רוצה לראות בתוצאה הסופית
 ALLOWED_GPU_MODELS = [
     "B200", "H200", "H100", "A100", "RTX 3090", "RTX 4090", "RTX 5090",
     "RTX 2000", "RTX 4000", "RTX 6000", "RTX A4000", "RTX A4500", "RTX A5000",
     "RTX A6000", "RTX PRO 6000", "L40", "L40S", "A40"
 ]
 
-# רשימת אזורים רלוונטיים ב-Azure
 AZURE_REGIONS = [
     "eastus", "westus", "westus2", "centralus", "northeurope", "westeurope",
     "eastasia", "southeastasia", "japaneast", "japanwest", "australiaeast",
@@ -28,14 +26,14 @@ def fetch_gpu_prices_for_region(region):
         print(f"📥 Fetching region: {region}")
         try:
             res = requests.get(url)
-            res.raise_for_status() # Raise an exception for HTTP errors (4xx or 5xx)
+            res.raise_for_status()
             data = res.json()
         except requests.exceptions.RequestException as e:
             print(f"Error fetching data for {region}: {e}")
-            break # Exit loop if there's a request error
+            break
         except json.JSONDecodeError as e:
             print(f"Error decoding JSON for {region}: {e}")
-            break # Exit loop if JSON is malformed
+            break
 
         for item in data.get("Items", []):
             sku = item.get("skuName", "").upper()
@@ -67,7 +65,7 @@ def fetch_all_azure_gpu_prices(output_filename="azure_gpu_prices.json"):
         json.dump(all_prices, f, indent=2, ensure_ascii=False)
 
     print(f"✅ Saved {len(all_prices)} GPU price entries to {output_filename}")
-    return output_filename # Return the filename for subsequent filtering
+    return output_filename
 
 def filter_gpu_prices(input_file="azure_gpu_prices.json", output_file="filtered_azure_gpu_prices.json"):
     """
@@ -91,12 +89,9 @@ def filter_gpu_prices(input_file="azure_gpu_prices.json", output_file="filtered_
         sku_name = item.get("skuName", "").lower()
         price_per_hour = item.get("pricePerHour")
 
-        # Check for "Low Priority" or "Spot" in skuName
-        if "low priority" in sku_name or "spot" in sku_name:
+        if any(term in sku_name.replace(" ", "") for term in ["lowpriority", "spot"]):
             continue
 
-        # Check if pricePerHour is greater than 200
-        # Ensure pricePerHour is a number before comparison
         if isinstance(price_per_hour, (int, float)) and price_per_hour > 200:
             continue
 
@@ -109,10 +104,7 @@ def filter_gpu_prices(input_file="azure_gpu_prices.json", output_file="filtered_
     print(f"Removed {initial_count - len(filtered_prices)} entries during filtering.")
 
 if __name__ == "__main__":
-    # Step 1: Fetch the data
     initial_data_file = fetch_all_azure_gpu_prices()
-
-    # Step 2: Filter the fetched data
     if initial_data_file and os.path.exists(initial_data_file):
         filter_gpu_prices(input_file=initial_data_file)
     else:
