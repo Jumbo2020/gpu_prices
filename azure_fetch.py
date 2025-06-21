@@ -1,3 +1,4 @@
+
 import requests
 import json
 import os
@@ -92,7 +93,10 @@ def filter_gpu_prices(input_file="azure_gpu_prices.json", output_file="filtered_
         if any(term in sku_name.replace(" ", "") for term in ["lowpriority", "spot"]):
             continue
 
-        if isinstance(price_per_hour, (int, float)) and price_per_hour > 200:
+        try:
+            if float(price_per_hour) > 200:
+                continue
+        except (ValueError, TypeError):
             continue
 
         filtered_prices.append(item)
