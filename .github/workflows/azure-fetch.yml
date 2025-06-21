@@ -2,7 +2,7 @@ name: Azure GPU Prices Auto-Update
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Once an hour
+    - cron: '0 0 * * *'  # midnight
   workflow_dispatch:
 
 jobs:
