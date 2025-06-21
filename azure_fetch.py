@@ -1,20 +1,36 @@
 import requests
 import json
 
-# רשימת דגמים שאתה רוצה לראות בתוצאה הסופית
+# רשימת דגמים שרק אותם נכלול (GPU בלבד)
 ALLOWED_GPU_MODELS = [
     "B200", "H200", "H100", "A100", "RTX 3090", "RTX 4090", "RTX 5090",
     "RTX 2000", "RTX 4000", "RTX 6000", "RTX A4000", "RTX A4500", "RTX A5000",
     "RTX A6000", "RTX PRO 6000", "L4", "L40", "L40S", "A40"
 ]
 
-# רשימת אזורים רלוונטיים ב-Azure
+# מופעים שצריך לדחות (לא GPU)
+EXCLUDE_IF_CONTAINS = [
+    "D", "E", "F", "G", "L48", "L64", "Ls", "Lsv3", "Ebsv5", "Dadsv5",
+    "M", "B", "H", "Dv4", "Ev4", "FX", "FX-series"
+]
+
 AZURE_REGIONS = [
     "eastus", "westus", "westus2", "centralus", "northeurope", "westeurope",
     "eastasia", "southeastasia", "japaneast", "japanwest", "australiaeast",
     "australiasoutheast", "canadacentral", "uksouth", "francecentral",
     "swedencentral", "germanywestcentral", "brazilsouth", "southafricanorth"
 ]
+
+def normalize(text):
+    return text.replace(" ", "").upper()
+
+def is_gpu_item(sku, product):
+    combined = normalize(f"{sku}{product}")
+    if not any(normalize(model) in combined for model in ALLOWED_GPU_MODELS):
+        return False
+    if any(normalize(excl) in combined for excl in EXCLUDE_IF_CONTAINS):
+        return False
+    return True
 
 def fetch_gpu_prices_for_region(region):
     prices = []
@@ -26,15 +42,13 @@ def fetch_gpu_prices_for_region(region):
         data = res.json()
 
         for item in data.get("Items", []):
-            sku = item.get("skuName", "").upper()
-            product = item.get("productName", "").upper()
-            combined = f"{sku} {product}"
-
-            if any(model.upper() in combined for model in ALLOWED_GPU_MODELS):
+            sku = item.get("skuName", "")
+            product = item.get("productName", "")
+            if is_gpu_item(sku, product):
                 prices.append({
                     "region": item["armRegionName"],
-                    "skuName": item["skuName"],
-                    "productName": item["productName"],
+                    "skuName": sku,
+                    "productName": product,
                     "pricePerHour": item["retailPrice"],
                     "currency": item["currencyCode"]
                 })
