@@ -1,0 +1,23 @@
+[
+  {
+    "region": "eastus",
+    "skuName": "Standard",
+    "productName": "Azure Container Apps",
+    "pricePerHour": 0.000529,
+    "currency": "USD"
+  },
+  {
+    "region": "eastus",
+    "skuName": "Standard",
+    "productName": "Azure Container Apps",
+    "pricePerHour": 7.3e-05,
+    "currency": "USD"
+  },
+  {
+    "region": "eastus",
+    "skuName": "Dedicated",
+    "productName": "Azure Container Apps",
+    "pricePerHour": 4.4076,
+    "currency": "USD"
+  }
+]
