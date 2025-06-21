@@ -1,0 +1,3882 @@
+[
+  {
+    "region": "eastus",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series",
+    "pricePerHour": 98.32,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series",
+    "pricePerHour": 88.488,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 9.554,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 7.346,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96asrA100v4_NU",
+    "productName": "Virtual Machines NDasr A100 v4 Series",
+    "pricePerHour": 27.197,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 32.77,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96isnIBH100v5",
+    "productName": "Virtual Machines NDsH100v5 Series Windows",
+    "pricePerHour": 92.904,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96isnIBH100v5",
+    "productName": "Virtual Machines NDsH100v5 Series Windows",
+    "pricePerHour": 88.488,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 92.904,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 88.488,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96isflH100v5",
+    "productName": "Virtual Machines NDsfH100v5 Series Windows",
+    "pricePerHour": 92.904,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96isflH100v5",
+    "productName": "Virtual Machines NDsfH100v5 Series Windows",
+    "pricePerHour": 88.488,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 7.346,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96isnIBH100v5",
+    "productName": "Virtual Machines NDsH100v5 Series",
+    "pricePerHour": 88.488,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 17.64,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 13.96,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 19.108,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 14.692,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 6.98,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "NDamsrA100v4 Type1",
+    "productName": "NDamsr A100 v4 Series Dedicated Host",
+    "pricePerHour": 36.047,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 37.186,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 32.77,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96asr_A100_v4",
+    "productName": "Virtual Machines NDasr A100 v4 Series",
+    "pricePerHour": 27.197,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96asrA100v4_NU",
+    "productName": "Virtual Machines NDasr A100 v4 Series Windows",
+    "pricePerHour": 31.613,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96asrA100v4_NU",
+    "productName": "Virtual Machines NDasr A100 v4 Series Windows",
+    "pricePerHour": 27.197,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 3.673,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 102.736,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 98.32,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 32.77,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96isrfH100v5",
+    "productName": "Virtual Machines NDsrf H100 v5 Series Windows",
+    "pricePerHour": 102.736,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96isrfH100v5",
+    "productName": "Virtual Machines NDsrf H100 v5 Series Windows",
+    "pricePerHour": 98.32,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 14.692,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND128isrNDRGB200v6",
+    "productName": "Virtual Machines NDsrGB200NDRv6 Windows",
+    "pricePerHour": 114.048,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND128isrNDRGB200v6",
+    "productName": "Virtual Machines NDsrGB200NDRv6 Windows",
+    "pricePerHour": 108.16,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 8.82,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 6.98,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND128isrNDRGB200v6",
+    "productName": "Virtual Machines NDsrGB200NDRv6 Series",
+    "pricePerHour": 108.16,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 4.777,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 3.673,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 37.186,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 32.77,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 13.96,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "NDasrA100v4 Type1",
+    "productName": "NDasr A100 v4 Series Dedicated Host",
+    "pricePerHour": 29.917,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96isrfH100v5",
+    "productName": "Virtual Machines NDsrf H100 v5 Series",
+    "pricePerHour": 98.32,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96asr_A100_v4",
+    "productName": "Virtual Machines NDasr A100 v4 Series Windows",
+    "pricePerHour": 31.613,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96asr_A100_v4",
+    "productName": "Virtual Machines NDasr A100 v4 Series Windows",
+    "pricePerHour": 27.197,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "eastus",
+    "skuName": "ND96isflH100v5",
+    "productName": "Virtual Machines NDsfH100v5 Series",
+    "pricePerHour": 88.488,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series",
+    "pricePerHour": 110.24,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 42.601,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 23.516,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 19.1,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 9.55,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 4.775,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "ND96isnIBH100v5",
+    "productName": "Virtual Machines NDsH100v5 Series Windows",
+    "pricePerHour": 119.45,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "ND96isnIBH100v5",
+    "productName": "Virtual Machines NDsH100v5 Series Windows",
+    "pricePerHour": 115.034,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 19.1,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series",
+    "pricePerHour": 115.034,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "ND96isnIBH100v5",
+    "productName": "Virtual Machines NDsH100v5 Series",
+    "pricePerHour": 115.034,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 10.914,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 9.074,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 5.879,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 4.775,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 114.656,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 110.24,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 119.45,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 115.034,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 9.074,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 18.148,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 47.017,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 42.601,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 11.758,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 9.55,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 132.232,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 127.816,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series",
+    "pricePerHour": 127.816,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "ND96isflH100v5",
+    "productName": "Virtual Machines NDsfH100v5 Series",
+    "pricePerHour": 115.034,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 47.017,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 42.601,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 42.601,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "ND96isflH100v5",
+    "productName": "Virtual Machines NDsfH100v5 Series Windows",
+    "pricePerHour": 119.45,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "ND96isflH100v5",
+    "productName": "Virtual Machines NDsfH100v5 Series Windows",
+    "pricePerHour": 115.034,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 21.828,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 18.148,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "NDasrA100v4 Type1",
+    "productName": "NDasr A100 v4 Series Dedicated Host",
+    "pricePerHour": 29.917,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND128isrNDRGB200v6",
+    "productName": "Virtual Machines NDsrGB200NDRv6 Windows",
+    "pricePerHour": 114.048,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND128isrNDRGB200v6",
+    "productName": "Virtual Machines NDsrGB200NDRv6 Windows",
+    "pricePerHour": 108.16,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND96asrA100v4_NU",
+    "productName": "Virtual Machines NDasr A100 v4 Series",
+    "pricePerHour": 27.197,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 14.692,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series",
+    "pricePerHour": 98.32,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 3.673,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series",
+    "pricePerHour": 84.8,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND96isnIBH100v5",
+    "productName": "Virtual Machines NDsH100v5 Series Windows",
+    "pricePerHour": 92.904,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND96isnIBH100v5",
+    "productName": "Virtual Machines NDsH100v5 Series Windows",
+    "pricePerHour": 88.488,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND96isnIBH100v5",
+    "productName": "Virtual Machines NDsH100v5 Series",
+    "pricePerHour": 88.488,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 37.186,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 32.77,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 4.777,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 3.673,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 19.108,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 14.692,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND96asr_A100_v4",
+    "productName": "Virtual Machines NDasr A100 v4 Series",
+    "pricePerHour": 27.197,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND128isrNDRGB200v6",
+    "productName": "Virtual Machines NDsrGB200NDRv6 Series",
+    "pricePerHour": 108.16,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 7.346,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND96asrA100v4_NU",
+    "productName": "Virtual Machines NDasr A100 v4 Series Windows",
+    "pricePerHour": 31.613,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND96asrA100v4_NU",
+    "productName": "Virtual Machines NDasr A100 v4 Series Windows",
+    "pricePerHour": 27.197,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 32.77,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 92.904,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 88.488,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series",
+    "pricePerHour": 88.488,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 13.96,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 17.64,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 13.96,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 9.554,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 7.346,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND96isflH100v5",
+    "productName": "Virtual Machines NDsfH100v5 Series",
+    "pricePerHour": 88.488,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND96isflH100v5",
+    "productName": "Virtual Machines NDsfH100v5 Series Windows",
+    "pricePerHour": 92.904,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND96isflH100v5",
+    "productName": "Virtual Machines NDsfH100v5 Series Windows",
+    "pricePerHour": 88.488,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 6.98,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 102.736,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 98.32,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 89.216,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 84.8,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 8.82,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 6.98,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND96asr_A100_v4",
+    "productName": "Virtual Machines NDasr A100 v4 Series Windows",
+    "pricePerHour": 31.613,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westus2",
+    "skuName": "ND96asr_A100_v4",
+    "productName": "Virtual Machines NDasr A100 v4 Series Windows",
+    "pricePerHour": 27.197,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 125.35,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 120.934,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "ND96isnIBH100v5",
+    "productName": "Virtual Machines NDsH100v5 Series Windows",
+    "pricePerHour": 113.256,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "ND96isnIBH100v5",
+    "productName": "Virtual Machines NDsH100v5 Series Windows",
+    "pricePerHour": 108.84,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "NCC40adsH100v5",
+    "productName": "Virtual Machines NCCadsv5 Srs Win",
+    "pricePerHour": 9.73,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "NCC40adsH100v5",
+    "productName": "Virtual Machines NCCadsv5 Srs Win",
+    "pricePerHour": 7.89,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series",
+    "pricePerHour": 120.934,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 10.509,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 8.301,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "ND96isflH100v5",
+    "productName": "Virtual Machines NDsfH100v5 Series",
+    "pricePerHour": 108.84,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 8.301,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 37.03,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 4.15,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 100.24,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 95.824,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "ND96isnIBH100v5",
+    "productName": "Virtual Machines NDsH100v5 Series",
+    "pricePerHour": 108.84,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 41.446,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 37.03,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 21.018,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 16.602,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 16.602,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series",
+    "pricePerHour": 108.84,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "ND128isrNDRGB200v6",
+    "productName": "Virtual Machines NDsrGB200NDRv6 Windows",
+    "pricePerHour": 138.925,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "ND128isrNDRGB200v6",
+    "productName": "Virtual Machines NDsrGB200NDRv6 Windows",
+    "pricePerHour": 133.037,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "ND96isflH100v5",
+    "productName": "Virtual Machines NDsfH100v5 Series Windows",
+    "pricePerHour": 113.256,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "ND96isflH100v5",
+    "productName": "Virtual Machines NDsfH100v5 Series Windows",
+    "pricePerHour": 108.84,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "ND96isrfH100v5",
+    "productName": "Virtual Machines NDsrf H100 v5 Series Windows",
+    "pricePerHour": 125.35,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "ND96isrfH100v5",
+    "productName": "Virtual Machines NDsrf H100 v5 Series Windows",
+    "pricePerHour": 120.934,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 113.256,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 108.84,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series",
+    "pricePerHour": 95.824,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "NCC40adsH100v5",
+    "productName": "Virtual Machines NCCadsv5 Srs",
+    "pricePerHour": 7.89,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "ND128isrNDRGB200v6",
+    "productName": "Virtual Machines NDsrGB200NDRv6 Series",
+    "pricePerHour": 133.037,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "ND96isrfH100v5",
+    "productName": "Virtual Machines NDsrf H100 v5 Series",
+    "pricePerHour": 120.934,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 5.254,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "centralus",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 4.15,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "northeurope",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 4.408,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "northeurope",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 8.815,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "northeurope",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 17.63,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "northeurope",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 11.023,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "northeurope",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 8.815,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "northeurope",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 22.046,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "northeurope",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 17.63,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "northeurope",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series",
+    "pricePerHour": 101.76,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "northeurope",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 106.176,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "northeurope",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 101.76,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "northeurope",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 10.216,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "northeurope",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 8.376,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "northeurope",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 16.752,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "northeurope",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 20.432,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "northeurope",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 16.752,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "northeurope",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 5.512,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "northeurope",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 4.408,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "northeurope",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 8.376,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "ND96isflH100v5",
+    "productName": "Virtual Machines NDsfH100v5 Series Windows",
+    "pricePerHour": 119.45,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "ND96isflH100v5",
+    "productName": "Virtual Machines NDsfH100v5 Series Windows",
+    "pricePerHour": 115.034,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 40.962,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 132.232,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 127.816,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "ND96isnIBH100v5",
+    "productName": "Virtual Machines NDsH100v5 Series Windows",
+    "pricePerHour": 119.45,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "ND96isnIBH100v5",
+    "productName": "Virtual Machines NDsH100v5 Series Windows",
+    "pricePerHour": 115.034,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "ND96asr_A100_v4",
+    "productName": "Virtual Machines NDasr A100 v4 Series Windows",
+    "pricePerHour": 39.773,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "ND96asr_A100_v4",
+    "productName": "Virtual Machines NDasr A100 v4 Series Windows",
+    "pricePerHour": 35.357,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "NCC40adsH100v5",
+    "productName": "Virtual Machines NCCadsv5 Srs",
+    "pricePerHour": 8.9,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "NDamsrA100v4 Type1",
+    "productName": "NDamsr A100 v4 Series Dedicated Host",
+    "pricePerHour": 45.059,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "NDasrA100v4 Type1",
+    "productName": "NDasr A100 v4 Series Dedicated Host",
+    "pricePerHour": 38.893,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "ND96asrA100v4_NU",
+    "productName": "Virtual Machines NDasr A100 v4 Series",
+    "pricePerHour": 35.357,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "ND96isnIBH100v5",
+    "productName": "Virtual Machines NDsH100v5 Series",
+    "pricePerHour": 115.034,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series",
+    "pricePerHour": 127.816,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 5.879,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 4.775,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 45.378,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 40.962,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "NCC40adsH100v5",
+    "productName": "Virtual Machines NCCadsv5 Srs Win",
+    "pricePerHour": 10.74,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "NCC40adsH100v5",
+    "productName": "Virtual Machines NCCadsv5 Srs Win",
+    "pricePerHour": 8.9,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series",
+    "pricePerHour": 115.034,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 9.55,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 40.962,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 18.16,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 4.775,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 45.378,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 40.962,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "ND96asrA100v4_NU",
+    "productName": "Virtual Machines NDasr A100 v4 Series Windows",
+    "pricePerHour": 39.773,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "ND96asrA100v4_NU",
+    "productName": "Virtual Machines NDasr A100 v4 Series Windows",
+    "pricePerHour": 35.357,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 21.84,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 18.16,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 11.758,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 9.55,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "ND96isflH100v5",
+    "productName": "Virtual Machines NDsfH100v5 Series",
+    "pricePerHour": 115.034,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 19.1,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "ND96asr_A100_v4",
+    "productName": "Virtual Machines NDasr A100 v4 Series",
+    "pricePerHour": 35.357,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 23.516,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 19.1,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 10.92,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 9.08,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 119.45,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 115.034,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "westeurope",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 9.08,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southeastasia",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series",
+    "pricePerHour": 110.24,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southeastasia",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 5.879,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southeastasia",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 4.775,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southeastasia",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 18.148,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southeastasia",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 19.1,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southeastasia",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 10.914,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southeastasia",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 9.074,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southeastasia",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 9.074,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southeastasia",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 23.516,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southeastasia",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 19.1,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southeastasia",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 21.828,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southeastasia",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 18.148,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southeastasia",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 11.758,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southeastasia",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 9.55,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southeastasia",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 9.55,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southeastasia",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 4.775,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southeastasia",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 114.656,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southeastasia",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 110.24,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 146.98,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 142.564,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 47.517,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 21.303,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 20.242,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series",
+    "pricePerHour": 142.564,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 51.933,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 47.517,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 12.86,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 10.652,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 25.719,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 21.303,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 5.326,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 6.43,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 5.326,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 11.961,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 10.121,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 110.416,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 106.0,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 47.517,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series",
+    "pricePerHour": 106.0,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series",
+    "pricePerHour": 128.308,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 10.121,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 10.652,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 132.724,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 128.308,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 51.933,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 47.517,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 23.922,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japaneast",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 20.242,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japanwest",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series",
+    "pricePerHour": 131.44,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japanwest",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 55.21,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japanwest",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 50.794,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japanwest",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 135.856,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japanwest",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 131.44,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japanwest",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 141.572,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japanwest",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 137.156,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japanwest",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series",
+    "pricePerHour": 152.396,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japanwest",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series",
+    "pricePerHour": 137.156,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japanwest",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 50.794,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japanwest",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 50.794,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japanwest",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 55.21,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japanwest",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 50.794,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japanwest",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 156.812,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "japanwest",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 152.396,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 147.016,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 142.6,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 20.242,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 23.922,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 20.242,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 47.516,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 47.516,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "ND128isrNDRGB200v6",
+    "productName": "Virtual Machines NDsrGB200NDRv6 Windows",
+    "pricePerHour": 162.728,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "ND128isrNDRGB200v6",
+    "productName": "Virtual Machines NDsrGB200NDRv6 Windows",
+    "pricePerHour": 156.84,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 5.326,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 10.121,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 10.652,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 51.932,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 47.516,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series",
+    "pricePerHour": 122.96,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "ND128isrNDRGB200v6",
+    "productName": "Virtual Machines NDsrGB200NDRv6 Series",
+    "pricePerHour": 156.84,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 12.86,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 10.652,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 6.43,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 5.326,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series",
+    "pricePerHour": 142.6,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 51.932,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 47.516,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 127.376,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 122.96,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 21.303,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 25.719,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 21.303,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 11.961,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiaeast",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 10.121,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiasoutheast",
+    "skuName": "ND128isrNDRGB200v6",
+    "productName": "Virtual Machines NDsrGB200NDRv6 Windows",
+    "pricePerHour": 157.328,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiasoutheast",
+    "skuName": "ND128isrNDRGB200v6",
+    "productName": "Virtual Machines NDsrGB200NDRv6 Windows",
+    "pricePerHour": 151.44,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiasoutheast",
+    "skuName": "ND128isrNDRGB200v6",
+    "productName": "Virtual Machines NDsrGB200NDRv6 Series",
+    "pricePerHour": 151.44,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiasoutheast",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 114.656,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiasoutheast",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 110.24,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "australiasoutheast",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series",
+    "pricePerHour": 110.24,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "canadacentral",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 43.74,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "canadacentral",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 39.324,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "canadacentral",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 11.023,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "canadacentral",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 8.815,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "canadacentral",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 39.324,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "canadacentral",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 4.408,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "canadacentral",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series",
+    "pricePerHour": 117.984,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "canadacentral",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 122.4,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "canadacentral",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 117.984,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "canadacentral",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 8.815,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "canadacentral",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 22.046,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "canadacentral",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 17.63,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "canadacentral",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 17.63,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "canadacentral",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 5.512,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "canadacentral",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 4.408,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "canadacentral",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 39.324,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "canadacentral",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 43.74,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "canadacentral",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 39.324,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 17.45,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 21.13,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 17.45,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "ND128isrNDRGB200v6",
+    "productName": "Virtual Machines NDsrGB200NDRv6 Series",
+    "pricePerHour": 135.2,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 45.378,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 40.962,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series",
+    "pricePerHour": 110.61,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 127.316,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 122.9,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 110.416,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 106.0,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series",
+    "pricePerHour": 106.0,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 22.781,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 18.365,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 45.378,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 40.962,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 9.183,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 8.725,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 5.695,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 4.591,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 18.365,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series",
+    "pricePerHour": 122.9,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 4.591,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 115.026,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 110.61,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 10.565,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 8.725,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 11.391,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 9.183,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 40.962,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "ND128isrNDRGB200v6",
+    "productName": "Virtual Machines NDsrGB200NDRv6 Windows",
+    "pricePerHour": 141.088,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "ND128isrNDRGB200v6",
+    "productName": "Virtual Machines NDsrGB200NDRv6 Windows",
+    "pricePerHour": 135.2,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "uksouth",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 40.962,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "francecentral",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 4.591,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "francecentral",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 45.378,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "francecentral",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 40.962,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "francecentral",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 45.378,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "francecentral",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 40.962,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "francecentral",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 11.391,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "francecentral",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 9.183,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "francecentral",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 110.416,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "francecentral",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 106.0,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "francecentral",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 18.365,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "francecentral",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 40.962,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "francecentral",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 5.695,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "francecentral",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 4.591,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "francecentral",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 22.781,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "francecentral",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 18.365,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "francecentral",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 40.962,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "francecentral",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 9.183,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "francecentral",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series",
+    "pricePerHour": 106.0,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 19.1,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96isnIBH100v5",
+    "productName": "Virtual Machines NDsH100v5 Series Windows",
+    "pricePerHour": 119.45,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96isnIBH100v5",
+    "productName": "Virtual Machines NDsH100v5 Series Windows",
+    "pricePerHour": 115.034,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 119.45,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 115.034,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96isrfH100v5",
+    "productName": "Virtual Machines NDsrf H100 v5 Series",
+    "pricePerHour": 127.816,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 21.828,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 18.148,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series",
+    "pricePerHour": 110.272,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 132.232,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 127.816,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96isfH100v5",
+    "productName": "Virtual Machines NDsrf H100 v5 Series Windows",
+    "pricePerHour": 119.45,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96isfH100v5",
+    "productName": "Virtual Machines NDsrf H100 v5 Series Windows",
+    "pricePerHour": 115.034,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96isflH100v5",
+    "productName": "Virtual Machines NDsfH100v5 Series Windows",
+    "pricePerHour": 119.45,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96isflH100v5",
+    "productName": "Virtual Machines NDsfH100v5 Series Windows",
+    "pricePerHour": 115.034,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 9.55,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96isnIBH100v5",
+    "productName": "Virtual Machines NDsH100v5 Series",
+    "pricePerHour": 115.034,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 9.074,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 23.516,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 19.1,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 5.879,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 4.775,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96isflH100v5",
+    "productName": "Virtual Machines NDsfH100v5 Series",
+    "pricePerHour": 115.034,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 4.775,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96isrfH100v5",
+    "productName": "Virtual Machines NDsrf H100 v5 Series Windows",
+    "pricePerHour": 132.232,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96isrfH100v5",
+    "productName": "Virtual Machines NDsrf H100 v5 Series Windows",
+    "pricePerHour": 127.816,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 40.962,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 11.758,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 9.55,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 40.962,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96isH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series",
+    "pricePerHour": 115.034,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series",
+    "pricePerHour": 127.816,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 45.378,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 40.962,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 45.378,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 40.962,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96isfH100v5",
+    "productName": "Virtual Machines NDsrf H100 v5 Series",
+    "pricePerHour": 115.034,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 18.148,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 114.688,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 110.272,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 10.914,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "swedencentral",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 9.074,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "germanywestcentral",
+    "skuName": "ND128isrNDRGB200v6",
+    "productName": "Virtual Machines NDsrGB200NDRv6 Windows",
+    "pricePerHour": 146.488,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "germanywestcentral",
+    "skuName": "ND128isrNDRGB200v6",
+    "productName": "Virtual Machines NDsrGB200NDRv6 Windows",
+    "pricePerHour": 140.6,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "germanywestcentral",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 21.828,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "germanywestcentral",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 18.148,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "germanywestcentral",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series",
+    "pricePerHour": 110.24,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "germanywestcentral",
+    "skuName": "ND128isrNDRGB200v6",
+    "productName": "Virtual Machines NDsrGB200NDRv6 Series",
+    "pricePerHour": 140.6,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "germanywestcentral",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 10.914,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "germanywestcentral",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series Windows",
+    "pricePerHour": 9.074,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "germanywestcentral",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 9.55,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "germanywestcentral",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 5.879,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "germanywestcentral",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 4.775,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "germanywestcentral",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 4.775,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "germanywestcentral",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 19.1,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "germanywestcentral",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 11.758,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "germanywestcentral",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 9.55,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "germanywestcentral",
+    "skuName": "NC40adsH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 9.074,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "germanywestcentral",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 114.656,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "germanywestcentral",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 110.24,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "germanywestcentral",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 23.516,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "germanywestcentral",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 19.1,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "germanywestcentral",
+    "skuName": "NC80adisH100v5",
+    "productName": "Virtual Machines NCadsH100v5 Series",
+    "pricePerHour": 18.148,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "brazilsouth",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 14.692,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "brazilsouth",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 65.54,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "brazilsouth",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 16.9,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "brazilsouth",
+    "skuName": "Standard_NC48ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 14.692,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "brazilsouth",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 29.384,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "brazilsouth",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 8.45,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "brazilsouth",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 7.346,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "brazilsouth",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 69.956,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "brazilsouth",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 65.54,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "brazilsouth",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series",
+    "pricePerHour": 169.6,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "brazilsouth",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 33.8,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "brazilsouth",
+    "skuName": "Standard_NC96ads_A100_v4",
+    "productName": "NCads A100 v4 Series Windows",
+    "pricePerHour": 29.384,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "brazilsouth",
+    "skuName": "Standard_NC24ads_A100_v4",
+    "productName": "NCads A100 v4 Series Linux",
+    "pricePerHour": 7.346,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "brazilsouth",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 69.956,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "brazilsouth",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 65.54,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "brazilsouth",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 65.54,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "brazilsouth",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 174.016,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "brazilsouth",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 169.6,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southafricanorth",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 47.844,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southafricanorth",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Linux",
+    "pricePerHour": 47.844,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southafricanorth",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 52.26,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southafricanorth",
+    "skuName": "Standard_ND96amsr_A100_v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 47.844,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southafricanorth",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 52.26,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southafricanorth",
+    "skuName": "ND96amsA100v4",
+    "productName": "Virtual Machines NDamsr A100 v4 Series Windows",
+    "pricePerHour": 47.844,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southafricanorth",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series",
+    "pricePerHour": 168.672,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southafricanorth",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 173.088,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southafricanorth",
+    "skuName": "ND96isrH100v5",
+    "productName": "Virtual Machines NDsr H100 v5 Series Windows",
+    "pricePerHour": 168.672,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southafricanorth",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series",
+    "pricePerHour": 123.808,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southafricanorth",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 128.224,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  },
+  {
+    "region": "southafricanorth",
+    "skuName": "ND96isrH200v5",
+    "productName": "Virtual Machines NDsrH200v5 Series Windows",
+    "pricePerHour": 123.808,
+    "currency": "USD",
+    "unitOfMeasure": "1 Hour"
+  }
+]
