@@ -47,7 +47,8 @@ def fetch_gpu_prices_for_region(region):
                     "skuName": item["skuName"],
                     "productName": item["productName"],
                     "pricePerHour": item["retailPrice"],
-                    "currency": item["currencyCode"]
+                    "currency": item["currencyCode"],
+                    "unitOfMeasure": item.get("unitOfMeasure", "")
                 })
 
         url = data.get("NextPageLink")
@@ -72,7 +73,7 @@ def filter_gpu_prices(input_file="azure_gpu_prices.json", output_file="filtered_
     """
     Filters GPU prices based on specified criteria:
     - Removes entries with "Low Priority" or "Spot" in skuName.
-    - Removes entries with pricePerHour greater than 200.
+    - Keeps only prices between 0.1 and 200 USD/hour.
     """
     try:
         with open(input_file, "r", encoding="utf-8") as f:
@@ -94,7 +95,8 @@ def filter_gpu_prices(input_file="azure_gpu_prices.json", output_file="filtered_
             continue
 
         try:
-            if float(price_per_hour) > 200:
+            price = float(price_per_hour)
+            if price < 0.1 or price > 200:
                 continue
         except (ValueError, TypeError):
             continue
