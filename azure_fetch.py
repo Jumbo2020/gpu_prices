@@ -18,7 +18,7 @@ AZURE_REGIONS = [
 
 def fetch_gpu_prices_for_region(region):
     """
-    Fetches GPU prices for a specific Azure region from the Azure Retail Prices API.
+    Fetches raw GPU pricing data for a specific Azure region.
     """
     prices = []
     url = f"https://prices.azure.com/api/retail/prices?$filter=serviceFamily eq 'Compute' and armRegionName eq '{region}'"
@@ -37,19 +37,14 @@ def fetch_gpu_prices_for_region(region):
             break
 
         for item in data.get("Items", []):
-            sku = item.get("skuName", "").upper()
-            product = item.get("productName", "").upper()
-            combined = f"{sku} {product}"
-
-            if any(model.upper() in combined for model in ALLOWED_GPU_MODELS):
-                prices.append({
-                    "region": item["armRegionName"],
-                    "skuName": item["skuName"],
-                    "productName": item["productName"],
-                    "pricePerHour": item["retailPrice"],
-                    "currency": item["currencyCode"],
-                    "unitOfMeasure": item.get("unitOfMeasure", "")
-                })
+            prices.append({
+                "region": item.get("armRegionName", ""),
+                "skuName": item.get("skuName", ""),
+                "productName": item.get("productName", ""),
+                "pricePerHour": item.get("retailPrice"),
+                "currency": item.get("currencyCode", ""),
+                "unitOfMeasure": item.get("unitOfMeasure", "")
+            })
 
         url = data.get("NextPageLink")
 
@@ -57,7 +52,7 @@ def fetch_gpu_prices_for_region(region):
 
 def fetch_all_azure_gpu_prices(output_filename="azure_gpu_prices.json"):
     """
-    Fetches all GPU prices across specified Azure regions and saves them to a JSON file.
+    Fetches all raw GPU pricing data from all regions and saves to file.
     """
     all_prices = []
     for region in AZURE_REGIONS:
@@ -66,14 +61,15 @@ def fetch_all_azure_gpu_prices(output_filename="azure_gpu_prices.json"):
     with open(output_filename, "w", encoding="utf-8") as f:
         json.dump(all_prices, f, indent=2, ensure_ascii=False)
 
-    print(f"✅ Saved {len(all_prices)} GPU price entries to {output_filename}")
+    print(f"✅ Saved {len(all_prices)} raw GPU price entries to {output_filename}")
     return output_filename
 
 def filter_gpu_prices(input_file="azure_gpu_prices.json", output_file="filtered_azure_gpu_prices.json"):
     """
-    Filters GPU prices based on specified criteria:
-    - Removes entries with "Low Priority" or "Spot" in skuName.
-    - Keeps only prices between 0.1 and 200 USD/hour.
+    Filters GPU pricing data with the following criteria:
+    - Matches allowed GPU models
+    - Excludes entries with 'Low Priority' or 'Spot'
+    - Only includes prices between 0.1 and 200 USD
     """
     try:
         with open(input_file, "r", encoding="utf-8") as f:
@@ -89,13 +85,20 @@ def filter_gpu_prices(input_file="azure_gpu_prices.json", output_file="filtered_
     initial_count = len(all_prices)
     for item in all_prices:
         sku_name = item.get("skuName", "").lower()
-        price_per_hour = item.get("pricePerHour")
+        product_name = item.get("productName", "").lower()
+        combined = f"{sku_name} {product_name}"
 
+        # Filter by allowed GPU models
+        if not any(model.lower() in combined for model in ALLOWED_GPU_MODELS):
+            continue
+
+        # Filter out Spot or Low Priority
         if any(term in sku_name.replace(" ", "") for term in ["lowpriority", "spot"]):
             continue
 
+        # Filter by price range
         try:
-            price = float(price_per_hour)
+            price = float(item.get("pricePerHour"))
             if price < 0.1 or price > 200:
                 continue
         except (ValueError, TypeError):
