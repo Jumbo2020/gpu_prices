@@ -5,7 +5,7 @@ import json
 ALLOWED_GPU_MODELS = [
     "B200", "H200", "H100", "A100", "RTX 3090", "RTX 4090", "RTX 5090",
     "RTX 2000", "RTX 4000", "RTX 6000", "RTX A4000", "RTX A4500", "RTX A5000",
-    "RTX A6000", "RTX PRO 6000", "L4", "L40", "L40S", "A40"
+    "RTX A6000", "RTX PRO 6000", "L40", "L40S", "A40"
 ]
 
 # רשימת אזורים רלוונטיים ב-Azure
