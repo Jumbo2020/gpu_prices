@@ -1,3 +1,4 @@
+
 name: Azure GPU Prices Auto-Update
 
 on:
@@ -24,14 +25,23 @@ jobs:
       - name: Run Azure GPU price fetch script
         run: python azure_fetch.py
 
-      - name: Commit and push updated azure_gpu_prices.json
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+      - name: Configure Git
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add azure_gpu_prices.json
+
+      - name: Pull latest changes
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git pull --rebase
+
+      - name: Commit and push updated filtered GPU prices
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git add filtered_azure_gpu_prices.json
           git diff --cached --quiet || (
             git commit -m "🔄 Auto-update Azure GPU prices"
-            git push https://x-access-token:${GH_PAT}@github.com/jumbo2020/gpu_prices.git HEAD:main
+            git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/jumbo2020/gpu_prices.git HEAD:main
           )
