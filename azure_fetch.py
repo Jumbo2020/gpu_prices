@@ -1,5 +1,6 @@
 import requests
 import json
+import os
 
 # רשימת דגמים שאתה רוצה לראות בתוצאה הסופית
 ALLOWED_GPU_MODELS = [
@@ -17,13 +18,24 @@ AZURE_REGIONS = [
 ]
 
 def fetch_gpu_prices_for_region(region):
+    """
+    Fetches GPU prices for a specific Azure region from the Azure Retail Prices API.
+    """
     prices = []
     url = f"https://prices.azure.com/api/retail/prices?$filter=serviceFamily eq 'Compute' and armRegionName eq '{region}'"
 
     while url:
         print(f"📥 Fetching region: {region}")
-        res = requests.get(url)
-        data = res.json()
+        try:
+            res = requests.get(url)
+            res.raise_for_status() # Raise an exception for HTTP errors (4xx or 5xx)
+            data = res.json()
+        except requests.exceptions.RequestException as e:
+            print(f"Error fetching data for {region}: {e}")
+            break # Exit loop if there's a request error
+        except json.JSONDecodeError as e:
+            print(f"Error decoding JSON for {region}: {e}")
+            break # Exit loop if JSON is malformed
 
         for item in data.get("Items", []):
             sku = item.get("skuName", "").upper()
@@ -43,15 +55,65 @@ def fetch_gpu_prices_for_region(region):
 
     return prices
 
-def fetch_all_azure_gpu_prices():
+def fetch_all_azure_gpu_prices(output_filename="azure_gpu_prices.json"):
+    """
+    Fetches all GPU prices across specified Azure regions and saves them to a JSON file.
+    """
     all_prices = []
     for region in AZURE_REGIONS:
         all_prices.extend(fetch_gpu_prices_for_region(region))
 
-    with open("azure_gpu_prices.json", "w") as f:
-        json.dump(all_prices, f, indent=2)
+    with open(output_filename, "w", encoding="utf-8") as f:
+        json.dump(all_prices, f, indent=2, ensure_ascii=False)
 
-    print(f"✅ Saved {len(all_prices)} GPU price entries to azure_gpu_prices.json")
+    print(f"✅ Saved {len(all_prices)} GPU price entries to {output_filename}")
+    return output_filename # Return the filename for subsequent filtering
+
+def filter_gpu_prices(input_file="azure_gpu_prices.json", output_file="filtered_azure_gpu_prices.json"):
+    """
+    Filters GPU prices based on specified criteria:
+    - Removes entries with "Low Priority" or "Spot" in skuName.
+    - Removes entries with pricePerHour greater than 200.
+    """
+    try:
+        with open(input_file, "r", encoding="utf-8") as f:
+            all_prices = json.load(f)
+    except FileNotFoundError:
+        print(f"Error: The file '{input_file}' was not found.")
+        return
+    except json.JSONDecodeError:
+        print(f"Error: Could not decode JSON from '{input_file}'. Check file format.")
+        return
+
+    filtered_prices = []
+    initial_count = len(all_prices)
+    for item in all_prices:
+        sku_name = item.get("skuName", "").lower()
+        price_per_hour = item.get("pricePerHour")
+
+        # Check for "Low Priority" or "Spot" in skuName
+        if "low priority" in sku_name or "spot" in sku_name:
+            continue
+
+        # Check if pricePerHour is greater than 200
+        # Ensure pricePerHour is a number before comparison
+        if isinstance(price_per_hour, (int, float)) and price_per_hour > 200:
+            continue
+
+        filtered_prices.append(item)
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(filtered_prices, f, indent=2, ensure_ascii=False)
+
+    print(f"✅ Filtered {len(filtered_prices)} GPU price entries saved to {output_file}")
+    print(f"Removed {initial_count - len(filtered_prices)} entries during filtering.")
 
 if __name__ == "__main__":
-    fetch_all_azure_gpu_prices()
+    # Step 1: Fetch the data
+    initial_data_file = fetch_all_azure_gpu_prices()
+
+    # Step 2: Filter the fetched data
+    if initial_data_file and os.path.exists(initial_data_file):
+        filter_gpu_prices(input_file=initial_data_file)
+    else:
+        print("Skipping filtering as initial data file was not created or found.")
