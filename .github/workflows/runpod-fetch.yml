@@ -2,7 +2,8 @@ name: RunPod GPU Prices Auto-Update
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    # Runs once every day at midnight UTC
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -22,10 +23,16 @@ jobs:
         run: pip install requests
 
       - name: Run GPU price fetch script
+        # Ensure your Python script (e.g., runpod_fetch.py) accesses
+        # the RUNPOD_KEY from environment variables as discussed previously.
         run: python runpod_fetch.py
+        env:
+          RUNPOD_KEY: ${{ secrets.RUNPOD_KEY }} # Pass the secret as an environment variable
 
       - name: Commit and push updated gpu_prices.json
         env:
+          # This assumes you have a GH_PAT secret for pushing changes.
+          # Make sure this PAT has 'repo' scope.
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           echo "🔧 Configuring Git"
@@ -36,8 +43,11 @@ jobs:
           git add gpu_prices.json
 
           echo "📝 Checking for changes"
+          # Check if there are any actual changes before committing
           git diff --cached --quiet || (
             echo "📤 Committing and pushing..."
             git commit -m "🔄 Auto-update GPU prices"
-            git push https://x-access-token:${GH_PAT}@github.com/jumbo2020/gpu_prices.git HEAD:main
+            # Use GITHUB_TOKEN if you're pushing to the same repository and have proper permissions
+            # Otherwise, ensure GH_PAT has 'repo' scope and use the format below
+            git push https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git HEAD:main
           )
